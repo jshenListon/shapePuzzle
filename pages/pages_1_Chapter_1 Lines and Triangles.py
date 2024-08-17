@@ -19,7 +19,7 @@ with st.sidebar:
 
 st.header("Chapter 1: Lines and Triangles")
 st.write("##")
-st.divider()
+
 
 with st.expander("Tutorial No.1: Line segments"):
 
@@ -85,7 +85,7 @@ with st.expander("Tutorial No.1: Line segments"):
     """
     )
 
-    st.divider()
+ 
     st.markdown("###### Write your code here")
     ## Code input
     code1 = st_ace(language="python", theme="tomorrow_night_bright", keybinding="vscode", font_size=14, tab_size=4, show_gutter=True, min_lines=10, key="ace",)
@@ -267,7 +267,7 @@ with st.expander("Tutorial No.2: Triangles and Transformations 1"):
     """
     )
 
-    st.divider()
+  
     st.markdown("###### Write your code here")
     ## Code input
     code2 = st_ace(language="python", theme="tomorrow_night_bright", keybinding="vscode", font_size=14, tab_size=4, show_gutter=True, min_lines=10, key="ace2",)
@@ -385,7 +385,7 @@ with st.expander("Tutorial No.3: Transformation 2, Rotation and Reflection"):
 
     """
     )
-    st.divider()
+  
     st.markdown("###### Write your code here")
     ## Code input
     code3 = st_ace(language="python", theme="tomorrow_night_bright", keybinding="vscode", font_size=14, tab_size=4, show_gutter=True, min_lines=10, key="ace3",)

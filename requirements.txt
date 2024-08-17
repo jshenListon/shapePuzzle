@@ -4,7 +4,7 @@ pandas
 matplotlib
 plotly==5.15.0
 nltk==3.8.1
-Pillow==9.5.0
+Pillow==10.2.0
 streamlit-ace==0.1.1
 extra-streamlit-components==0.1.56
 streamlit-image-select==0.6.0

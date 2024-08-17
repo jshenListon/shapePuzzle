@@ -42,7 +42,6 @@ with st.sidebar:
 
 st.header("Shape Puzzles")
 st.write("##")
-st.divider()
 
 st.markdown("###### Write your code here")
 ## Code input

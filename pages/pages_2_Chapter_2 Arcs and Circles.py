@@ -20,7 +20,7 @@ with st.sidebar:
 
 st.header("Chapter 2: Arcs and Circles")
 st.write("##")
-st.divider()
+
 
 with st.expander("Tutorial No.1: Circles in different way of drawing"):
 
@@ -96,7 +96,7 @@ with st.expander("Tutorial No.1: Circles in different way of drawing"):
             Having fun!!
     """
     )
-    st.divider()
+ 
     st.markdown("###### Write your code here")
     ## Code input
     code1 = st_ace(language="python", theme="tomorrow_night_bright", keybinding="vscode", font_size=14, tab_size=4, show_gutter=True, min_lines=10, key="ace",)

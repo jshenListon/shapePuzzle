@@ -55,7 +55,7 @@ code = st_ace(
     min_lines=10,
     key="ace",
 )
-st.divider()
+
 
 target = image_select(
     label="Select a target image",
@@ -82,7 +82,7 @@ if code:
         st.code(str(e))
 
 st.write("##")
-st.divider()
+
 with o1:
     st.markdown("##### Target Shape:")
     target = Image.open(target)

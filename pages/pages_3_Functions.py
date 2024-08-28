@@ -3,7 +3,6 @@ import streamlit as st
 with st.expander("Line Functions"):
 
     st.markdown("##### Line Functions")
-    st.divider()
     st.markdown(
     """
         **:red[line2P(start, end, color=(0,0,0), width=1)]**
@@ -18,7 +17,7 @@ with st.expander("Line Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[lineDraw(start, angle, length, color=(0,0,0), width=1)]**
@@ -37,7 +36,7 @@ with st.expander("Line Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[lineFunc(x_range, alpha=1, const = 0, color=(0,0,0), width=1)]**
@@ -53,7 +52,7 @@ with st.expander("Line Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[p2d(start, end)]**
@@ -72,7 +71,7 @@ with st.expander("Line Functions"):
         - **mid_point**: The midpoint of the line segment between two end points.
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[lines_intersection(l1, l2)]**
@@ -109,7 +108,7 @@ with st.expander("Triangle Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[triangle_LP(line, p, fill=None, color = (0,0,0))]**
@@ -127,7 +126,7 @@ with st.expander("Triangle Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[t_center(triangle)]**
@@ -144,7 +143,7 @@ with st.expander("Triangle Functions"):
          -- 'centroid': the [centroid](https://byjus.com/maths/centroid/) of the triangle. 
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[rescale_c(shape, alpha = 1, redraw=True, color='black', fill='white', width=1)]**
@@ -163,7 +162,7 @@ with st.expander("Triangle Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[rescale_p(shape, point='p1',alpha = 1, redraw=True, color='black', fill='white', width=1)]**
@@ -183,7 +182,7 @@ with st.expander("Triangle Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[translate_o(shape, vector=(0,0), redraw=True, color='black', fill=None, width=1)]**
@@ -202,7 +201,7 @@ with st.expander("Triangle Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[translate_p(shape, vector=(100,0), point='p1', redraw=True, color='black', fill=None, width=1)]**
@@ -222,7 +221,7 @@ with st.expander("Triangle Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[rotation(shape, point=(0,0), angle=90, redraw=True, color='black', fill='white', width=1)]**
@@ -242,7 +241,7 @@ with st.expander("Triangle Functions"):
         - **width**: The width of the drawing of the line segment. [Data format, int]
     """)
 
-    st.divider()
+
     st.markdown(
     """
         **:red[reflection(shape, line, redraw=True, color='black', fill='white', width=1)]**
